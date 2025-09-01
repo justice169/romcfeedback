@@ -144,7 +144,7 @@ def get_simplified_html():
 
 # Display content without iframe scrolling issues
 st.markdown("---")
-components.html(get_simplified_html(), height=800, scrolling=False)
+components.html(get_simplified_html(), height=1400, scrolling=True)
 
 # Export Options
 st.markdown("---")
