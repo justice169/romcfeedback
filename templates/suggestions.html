@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Community Suggestions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ecf0f1;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(44, 62, 80, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+        }
+        
+        .header h1 {
+            color: #3498db;
+            margin: 0;
+            font-size: 2.2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .period {
+            color: #bdc3c7;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        
+        .suggestion-card {
+            background: linear-gradient(145deg, #34495e, #2c3e50);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid #27ae60;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .suggestion-card:hover {
+            transform: translateY(-2px);
+        }
+        
+        .rank {
+            display: inline-block;
+            background: #27ae60;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 1.1em;
+        }
+        
+        .votes {
+            float: right;
+            background: #27ae60;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        
+        .username {
+            color: #3498db;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .suggestion-text {
+            color: #ecf0f1;
+            line-height: 1.6;
+            font-size: 1.05em;
+        }
+        
+        .date {
+            color: #95a5a6;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        .stats-bar {
+            background: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .stat-item {
+            display: inline-block;
+            margin: 0 20px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+            display: block;
+        }
+        
+        .stat-label {
+            color: #bdc3c7;
+            font-size: 0.9em;
+        }
+        
+        .category-badge {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-top: 8px;
+        }
+        
+        .balance { background: #e67e22; }
+        .gameplay { background: #9b59b6; }
+        .ui { background: #1abc9c; }
+        .content { background: #f39c12; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏆 TOP COMMUNITY SUGGESTIONS</h1>
+            <div class="period">📅 Week of August 25-31, 2025</div>
+        </div>
+        
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-number">7</span>
+                <span class="stat-label">Total Suggestions</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">203</span>
+                <span class="stat-label">Total Votes</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">29</span>
+                <span class="stat-label">Avg. Votes</span>
+            </div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">1</div>
+            <div class="votes">✅ 41</div>
+            <div class="username">👤 meng2_tetangga#0</div>
+            <div class="suggestion-text">
+                <strong>Adjustment on Abyss Lake Daily Purification</strong><br>
+                Abyss lake daily 3k purification consumes so much time, on average it's around 1h if crowded. Currently peaks at 3/8 MVP/Mini, but will peak at 5/10 in future expansion - taking 2h to complete. IT'S SUCH A CHORE!
+            </div>
+            <div class="category-badge gameplay">GAMEPLAY</div>
+            <div class="date">📅 08/26/2025 12:33 PM</div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">2</div>
+            <div class="votes">✅ 36</div>
+            <div class="username">👤 escutcheon_51752#0</div>
+            <div class="suggestion-text">
+                <strong>Fix Homunculus Issues (Genetics Class)</strong><br>
+                Major problems: Slow movement speed, inefficient AI, lack of control over movement/skills/targeting, defensive power doesn't scale. Current "HP doesn't reduce when Hell Tree is active" doesn't address core issues.
+            </div>
+            <div class="category-badge balance">CLASS BALANCE</div>
+            <div class="date">📅 08/28/2025 10:04 PM</div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">3</div>
+            <div class="votes">✅ 33</div>
+            <div class="username">👤 gegs6597#0</div>
+            <div class="suggestion-text">
+                <strong>Instant Daily Purification Progress</strong><br>
+                Make daily purification grind/progress to be completed instantly like Camp Sweep. This purification feature is very tiring and unnecessary.
+            </div>
+            <div class="category-badge gameplay">GAMEPLAY</div>
+            <div class="date">📅 08/25/2025 2:40 PM</div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">4</div>
+            <div class="votes">✅ 30</div>
+            <div class="username">👤 rue.a_#0</div>
+            <div class="suggestion-text">
+                <strong>Bring Back Chaotic Spacetime Instance</strong><br>
+                It's fun and has great rewards! Community misses this content.
+            </div>
+            <div class="category-badge content">CONTENT</div>
+            <div class="date">📅 08/25/2025 5:48 AM</div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">5</div>
+            <div class="votes">✅ 27</div>
+            <div class="username">👤 setsuna7182#0</div>
+            <div class="suggestion-text">
+                <strong>Reduce Grind & Balance Classes</strong><br>
+                "Stop turning this game into grindy AF like ROMEL! THIS IS ROMC!! Reduce abyssal lake farming time, give more purification points. LET US SWEEP ON THOSE MVP/Minis too! DO SOMETHING RIGHT FOR US!"
+            </div>
+            <div class="category-badge balance">CLASS BALANCE</div>
+            <div class="date">📅 08/29/2025 6:14 AM</div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">6</div>
+            <div class="votes">✅ 26</div>
+            <div class="username">👤 extr3meguy#0</div>
+            <div class="suggestion-text">
+                <strong>GVG Targeting Options</strong><br>
+                During GVG when targeting, give us option aside from "attack all" and "emperium". Give us option to target "Players" specifically - when we select attack all it attacks the emperium too.
+            </div>
+            <div class="category-badge ui">UI/UX</div>
+            <div class="date">📅 08/25/2025 3:27 PM</div>
+        </div>
+        
+        <div class="suggestion-card">
+            <div class="rank">7</div>
+            <div class="votes">✅ 25</div>
+            <div class="username">👤 loki8238#0</div>
+            <div class="suggestion-text">
+                <strong>Make All Master Skills Spammable</strong><br>
+                Like spiritual combo and insta slash! Improve skill accessibility for all classes.
+            </div>
+            <div class="category-badge balance">CLASS BALANCE</div>
+            <div class="date">📅 08/30/2025 2:00 PM</div>
+        </div>
+    </div>
+</body>
+</html>
