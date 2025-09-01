@@ -147,45 +147,45 @@ st.markdown("---")
 components.html(get_simplified_html(), height=1400, scrolling=True)
 
 # Export Options
-st.markdown("---")
-st.subheader("📈 Export Options")
+# st.markdown("---")
+# st.subheader("📈 Export Options")
 
-col1, col2, col3 = st.columns(3)
-with col1:
-    if st.button("📋 Copy Discord Format"):
-        discord_format = """📊 **TOP COMMUNITY SUGGESTIONS - Week Aug 25-31**
+# col1, col2, col3 = st.columns(3)
+# with col1:
+#     if st.button("📋 Copy Discord Format"):
+#         discord_format = """📊 **TOP COMMUNITY SUGGESTIONS - Week Aug 25-31**
 
-🥇 **#1 (41 votes)** - Abyss Lake Daily Purification  
-└ Takes 1-2 hours, needs optimization
+# 🥇 **#1 (41 votes)** - Abyss Lake Daily Purification  
+# └ Takes 1-2 hours, needs optimization
 
-🥈 **#2 (36 votes)** - Fix Homunculus Issues  
-└ AI problems, movement speed, control issues
+# 🥈 **#2 (36 votes)** - Fix Homunculus Issues  
+# └ AI problems, movement speed, control issues
 
-🥉 **#3 (33 votes)** - Instant Purification Progress  
-└ Make it like Camp Sweep
+# 🥉 **#3 (33 votes)** - Instant Purification Progress  
+# └ Make it like Camp Sweep
 
-🏅 **#4 (30 votes)** - Bring Back Chaotic Spacetime  
-🏅 **#5 (27 votes)** - Reduce Grind & Balance Classes
+# 🏅 **#4 (30 votes)** - Bring Back Chaotic Spacetime  
+# 🏅 **#5 (27 votes)** - Reduce Grind & Balance Classes
 
-**📈 Total: 203 votes from 7 suggestions**"""
+# **📈 Total: 203 votes from 7 suggestions**"""
         
-        st.code(discord_format, language="markdown")
-        st.success("Discord format ready to copy!")
+#         st.code(discord_format, language="markdown")
+#         st.success("Discord format ready to copy!")
 
-with col2:
-    if st.button("📊 View Raw Data"):
-        st.json({
-            "week": "Aug 25-31, 2025",
-            "total_suggestions": 7,
-            "total_votes": 203,
-            "top_suggestions": [
-                {"rank": 1, "votes": 41, "title": "Abyss Lake Daily Purification", "category": "Gameplay"},
-                {"rank": 2, "votes": 36, "title": "Fix Homunculus Issues", "category": "Class Balance"},
-                {"rank": 3, "votes": 33, "title": "Instant Purification Progress", "category": "Gameplay"},
-                {"rank": 4, "votes": 30, "title": "Bring Back Chaotic Spacetime", "category": "Content"},
-                {"rank": 5, "votes": 27, "title": "Reduce Grind & Balance Classes", "category": "Class Balance"}
-            ]
-        })
+# with col2:
+#     if st.button("📊 View Raw Data"):
+#         st.json({
+#             "week": "Aug 25-31, 2025",
+#             "total_suggestions": 7,
+#             "total_votes": 203,
+#             "top_suggestions": [
+#                 {"rank": 1, "votes": 41, "title": "Abyss Lake Daily Purification", "category": "Gameplay"},
+#                 {"rank": 2, "votes": 36, "title": "Fix Homunculus Issues", "category": "Class Balance"},
+#                 {"rank": 3, "votes": 33, "title": "Instant Purification Progress", "category": "Gameplay"},
+#                 {"rank": 4, "votes": 30, "title": "Bring Back Chaotic Spacetime", "category": "Content"},
+#                 {"rank": 5, "votes": 27, "title": "Reduce Grind & Balance Classes", "category": "Class Balance"}
+#             ]
+#         })
 
-with col3:
-    st.info("💡 **Dev Team Action Items:**\n- Prioritize Abyss Lake optimization\n- Address Homunculus AI issues\n- Consider instant purification feature")
+# with col3:
+#     st.info("💡 **Dev Team Action Items:**\n- Prioritize Abyss Lake optimization\n- Address Homunculus AI issues\n- Consider instant purification feature")
